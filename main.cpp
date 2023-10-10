@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 
 #include "Software.h"
@@ -882,19 +883,24 @@ int main() {
     // Crear una biblioteca
     Biblioteca miBiblioteca;
 
-    // Poblar la biblioteca con juegos (20 juegos en total, 2 de cada género)
+    // Crear una biblioteca
+// Poblar la biblioteca con juegos (20 juegos en total, 2 de cada género)
+    vector<string> generos = {"Aventura", "Acción", "Estrategia", "Deportes", "Simulación"};
+
     for (int i = 1; i <= 20; i++) {
         string nombreJuego = "Juego" + to_string(i);
         string developer = "Desarrollador" + to_string(i);
         int clasificacion = (i <= 10) ? 18 : 12;  // 10 juegos para 18+ y 10 para 12+
         int precio = 49 + i;  // Precio ficticio
+        string genero = generos[(i - 1) % generos.size()];  // Alternar entre los géneros usando operador módulo %
 
         // Crear instancia de Juego
-        Juego* juego = new Juego(nombreJuego, developer, clasificacion, precio, "Aventura");
+        Juego* juego = new Juego(nombreJuego, developer, clasificacion, precio, genero);  // Usar la variable 'genero'
 
         // Agregar el juego a la biblioteca
         miBiblioteca.agregarSoftware(juego);
     }
+
 
     // Poblar la biblioteca con software de ofimática (5 software)
     for (int i = 1; i <= 5; i++) {
@@ -1076,4 +1082,6 @@ while (temp != nullptr) {
     //aaaa
     
 }
+
+
 
