@@ -883,7 +883,6 @@ int main() {
     // Crear una biblioteca
     Biblioteca miBiblioteca;
 
-    // Crear una biblioteca
 // Poblar la biblioteca con juegos (20 juegos en total, 2 de cada género)
     vector<string> generos = {"Aventura", "Acción", "Estrategia", "Deportes", "Simulación"};
 
