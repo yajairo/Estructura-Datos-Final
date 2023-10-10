@@ -1,1 +1,19 @@
 # Estructura-Datos-Final
+admin1: { usuario: "admin1"; contraseña: "admin123"; edad: "30"; correo: "admin1@email.com"; log: "true" }
+admin2: { usuario: "admin2"; contraseña: "admin456"; edad: "35"; correo: "admin2@email.com"; log: "true" }
+nino1: { usuario: "nino1"; contraseña: "nino123"; edad: "8"; correo: ""; log: "false" }
+nino2: { usuario: "nino2"; contraseña: "nino456"; edad: "6"; correo: ""; log: "false" }
+nino3: { usuario: "nino3"; contraseña: "nino789"; edad: "9"; correo: ""; log: "false" }
+nino4: { usuario: "nino4"; contraseña: "ninoabc"; edad: "7"; correo: ""; log: "false" }
+nino5: { usuario: "nino5"; contraseña: "ninoxyz"; edad: "5"; correo: ""; log: "false" }
+normal1: { usuario: "normal1"; contraseña: "normal123"; edad: "25"; correo: "normal1@email.com"; log: "false" }
+normal2: { usuario: "normal2"; contraseña: "normal456"; edad: "22"; correo: "normal2@email.com"; log: "false" }
+normal3: { usuario: "normal3"; contraseña: "normal789"; edad: "28"; correo: "normal3@email.com"; log: "false" }
+normal4: { usuario: "normal4"; contraseña: "normalabc"; edad: "30"; correo: "normal4@email.com"; log: "false" }
+normal5: { usuario: "normal5"; contraseña: "normalxyz"; edad: "21"; correo: "normal5@email.com"; log: "false" }
+normal6: { usuario: "normal6"; contraseña: "normal123"; edad: "29"; correo: "normal6@email.com"; log: "false" }
+normal7: { usuario: "normal7"; contraseña: "normal456"; edad: "27"; correo: "normal7@email.com"; log: "false" }
+normal8: { usuario: "normal8"; contraseña: "normal789"; edad: "24"; correo: "normal8@email.com"; log: "false" }
+normal9: { usuario: "normal9"; contraseña: "normalabc"; edad: "26"; correo: "normal9@email.com"; log: "false" }
+normal10: { usuario: "normal10"; contraseña: "normalxyz"; edad: "23"; correo: "normal10@email.com"; log: "false" }
+normal11: { usuario: "normal11"; contraseña: "normal123"; edad: "31"; correo: "normal11@email.com"; log: "false" }
